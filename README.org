@@ -1,0 +1,19 @@
+* Measures of Complexity
+
+** [[https://en.wikipedia.org/wiki/Cyclomatic_complexity][Cyclomatic Complexity]]
+
+*** [[https://github.com/terryyin/lizard][Measured by Lizard]]
+
+- Average CCN :: Average Cyclomatic Complexity as reported by running
+                 "lizard" in the respective source directory.
+- Lines of Code :: Total lines of code as reported by "cloc ." in the
+                   respective source.
+
+| Program        | Version                                  | Average CCN | [[https://github.com/AlDanial/cloc][Lines of Code]] |
+|----------------+------------------------------------------+-------------+---------------|
+| OpenBSD Kernel | [[https://github.com/openbsd/src/tree/926f477f07d3bba063ff6ee1ea9e0b7369ed8930/sys][926f477f07d3bba063ff6ee1ea9e0b7369ed8930]] |         5.6 |       3688920 |
+| OpenBSD KSH    | [[https://github.com/openbsd/src/tree/926f477f07d3bba063ff6ee1ea9e0b7369ed8930/bin/ksh][926f477f07d3bba063ff6ee1ea9e0b7369ed8930]] |        10.1 |         19542 |
+| OpenBSD libc   | [[https://github.com/openbsd/src/tree/926f477f07d3bba063ff6ee1ea9e0b7369ed8930/lib/libc][926f477f07d3bba063ff6ee1ea9e0b7369ed8930]] |         6.9 |         90567 |
+| SystemD        | [[https://github.com/systemd/systemd/tree/6bbeef204252f15382d0b6cad60e37b9f879caa4][6bbeef204252f15382d0b6cad60e37b9f879caa4]] |         6.1 |        516103 |
+| Linux          | [[https://github.com/torvalds/linux/tree/738d2902773e30939a982c8df7a7f94293659810][738d2902773e30939a982c8df7a7f94293659810]] |         4.3 |      19255787 |
+| Fish Shell     | [[https://github.com/fish-shell/fish-shell/releases/download/3.0.2/fish-3.0.2.tar.gz][3.0.2]]                                    |         7.3 |        524178 |

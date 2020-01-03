@@ -1,0 +1,31 @@
+     100 files     200 files     300 files     400 files     500 files     600 files     700 files     800 files     900 files    1000 files    1100 files    1200 files    1300 files    1400 files    1500 files    1600 files    1609 text files.
+classified 1602 filesDuplicate file check 1602 files (1321 known unique)Unique:      100 files                                          Unique:      200 files                                          Unique:      300 files                                          Unique:      400 files                                          Unique:      500 files                                          Unique:      600 files                                          Unique:      700 files                                          Unique:      800 files                                          Unique:      900 files                                          Unique:     1000 files                                          Unique:     1100 files                                          Unique:     1200 files                                          Unique:     1300 files                                              1597 unique files.                              
+Counting:  100Counting:  200Counting:  300Counting:  400Counting:  500Counting:  600Counting:  700Counting:  800Counting:  900Counting:  1000Counting:  1100Counting:  1200Counting:  1300Counting:  1400Counting:  1500     457 files ignored.
+
+github.com/AlDanial/cloc v 1.84  T=8.40 s (140.5 files/s, 105669.8 lines/s)
+-----------------------------------------------------------------------------------
+Language                         files          blank        comment           code
+-----------------------------------------------------------------------------------
+PO File                              9         125363         158672         301223
+C                                   52          11775          10175          71618
+C++                                 84           6467           7145          39058
+Bourne Shell                        30           5752           6536          37528
+Fish Shell                         840           4661           5394          34207
+m4                                  12           1393            255          11613
+C/C++ Header                        97           2944           4690           8788
+JavaScript                           6           1689           7545           7511
+HTML                                16            144             14           5447
+Python                               3            457            335           2511
+CMake                               13            288            420           1262
+Markdown                             4            461              0           1222
+CSS                                  2             87             31            737
+make                                 1            105             82            612
+Perl                                 4             86             71            371
+Windows Resource File                1             22              0            251
+YAML                                 2              3             10             91
+Objective C                          1             19             15             66
+XML                                  2              0              0             51
+Dockerfile                           1              5              3             11
+-----------------------------------------------------------------------------------
+SUM:                              1180         161721         201393         524178
+-----------------------------------------------------------------------------------
